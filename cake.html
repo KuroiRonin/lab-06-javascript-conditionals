@@ -3,12 +3,14 @@
 <body>
 <script>
 while(true) {
-var response = prompt("Do you want cake? ");
-if (response.toLowerCase()==="yes") {
-    alert("yes");
-} else (
-    alert("No cake for you.")
-)
+    var response = prompt("Do you want cake? ");
+    if (response.toLowerCase()==="yes") {
+        alert("yes")
+    } else if (response.toLowerCase() === "no"){
+        alert("No cake for you.")
+     } else {
+        alert("I don't understand")
+    } 
 }
 </script>
 </body>
