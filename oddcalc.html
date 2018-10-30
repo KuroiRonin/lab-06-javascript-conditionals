@@ -1,0 +1,24 @@
+<!DOCTYPE hmtl>
+<html>
+<body>
+<script>
+while(true) {
+    var n1 = parseInt(prompt("Please enter a number: "));
+    var n2 = parseInt(prompt("Please enter another number: "));
+    var op = prompt("Please enter a operator: (mult,div,mod)");
+    
+    if(op === "mult") {
+        alert(n1 + " * " + n2 + " = " + (n1 * n2) )
+    
+    } else if (op === "div") {
+         alert(n1 + " / " + n2 + " = " + (n1 / n2) )
+    } else if (op === "mod") {
+         alert(n1 + " % " + n2 + " = " + (n1 % n2) )
+    } else {
+        alert("***invalid operation***")
+    
+    }
+}
+</script>
+</body>
+</html>
